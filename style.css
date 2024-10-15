@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    text-align: center;
+    background-color: teal;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+}
+.container{
+    height: 70vh;
+    width: 50vh;
+    padding: 3rem;
+    background-color: coral;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1rem;
+    margin-top: 1rem;
+    border: 2px solid black;
+    /* gap: 1rem;
+    text-align: centre; */
+}
+.container input{
+    width: 45vmin;
+    height: 5vmin;
+    border-radius: 0.8rem;
+    background-color: wheat;
+    color: black;
+    font-size: 1.2rem;
+}
+
+.calculator button{
+    height: 10vmin;
+    width: 10vmin;
+    border-radius: 0.8rem;
+    font-size: 4vmin;
+    margin: 0.3vmin;
+    background-color: wheat;
+}
+button:active{
+    background-color: rgb(217, 178, 178);
+}
